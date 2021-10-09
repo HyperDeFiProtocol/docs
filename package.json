@@ -1,7 +1,7 @@
 {
-  "name": "hyperdefi-docs",
+  "name": "hyperdefi-protocol-docs",
   "version": "1.0.0",
-  "description": "Documentations for HyperDeFi",
+  "description": "HyperDeFi Protocol Documentations",
   "main": "index.js",
   "repository": "git@hyper:HyperDeFiProtocol/docs.git",
   "author": "HyperDeFi Labs",
