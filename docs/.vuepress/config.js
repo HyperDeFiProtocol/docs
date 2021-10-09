@@ -129,9 +129,9 @@ module.exports = {
     },
 
     // webpack
-    configureWebpack: {
-        resolve: {
-            //
-        }
-    }
+    // configureWebpack: {
+    //     resolve: {
+    //         //
+    //     }
+    // }
 }
