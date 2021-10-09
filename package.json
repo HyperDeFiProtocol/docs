@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src && echo docs.hyperdefi.org > ./docs/CNAME"
+    "build": "vuepress build src"
   },
   "devDependencies": {
     "vuepress": "^1.8.2"
