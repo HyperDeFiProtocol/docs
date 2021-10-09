@@ -21,21 +21,21 @@ module.exports = {
      * plugin
      */
     plugins: [
-        // '@vuepress/active-header-links',
-        // '@vuepress/back-to-top',
-        // '@vuepress/medium-zoom',
-        // // '@vuepress/pwa', {
-        // //     serviceWorker: true,
-        // //     updatePopup: true
-        // // },
-        // [
-        //     'vuepress-plugin-clean-urls',
-        //     {
-        //         normalSuffix: '/',
-        //         indexSuffix: '/',
-        //         notFoundPath: '/404.html',
-        //     },
-        // ],
+        '@vuepress/active-header-links',
+        '@vuepress/back-to-top',
+        '@vuepress/medium-zoom',
+        // '@vuepress/pwa', {
+        //     serviceWorker: true,
+        //     updatePopup: true
+        // },
+        [
+            'vuepress-plugin-clean-urls',
+            {
+                normalSuffix: '/',
+                indexSuffix: '/',
+                notFoundPath: '/404.html',
+            },
+        ],
     ],
 
     /**
@@ -114,24 +114,17 @@ module.exports = {
             md.linkify.set({
                 fuzzyEmail: false,
             })
-            // md.use(require('markdown-it-sub'))
-            // md.use(require('markdown-it-sup'))
-            // md.use(require('markdown-it-ins'))
-            // md.use(require('markdown-it-mark'))
-            // md.use(require('markdown-it-footnote'))
-            // md.use(require('markdown-it-abbr'))
-            //
-            // const twemoji = require('twemoji')
-            // md.renderer.rules.emoji = function (token, idx) {
-            //     return twemoji.parse(token[idx].content);
-            // }
+            md.use(require('markdown-it-sub'))
+            md.use(require('markdown-it-sup'))
+            md.use(require('markdown-it-ins'))
+            md.use(require('markdown-it-mark'))
+            md.use(require('markdown-it-footnote'))
+            md.use(require('markdown-it-abbr'))
+
+            const twemoji = require('twemoji')
+            md.renderer.rules.emoji = function (token, idx) {
+                return twemoji.parse(token[idx].content);
+            }
         }
     },
-
-    // webpack
-    // configureWebpack: {
-    //     resolve: {
-    //         //
-    //     }
-    // }
 }
