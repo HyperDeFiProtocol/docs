@@ -16,7 +16,7 @@ https://github.com/HyperDeFiProtocol/home
 
 ## 文档仓库
 
-https://github.com/HyperDeFiProtocol/docs
+https://github.com/HyperDeFiProtocol/documentations
 
 存放本文档站代码，使用 [vuepress](https://vuepress.vuejs.org/) 构建
 

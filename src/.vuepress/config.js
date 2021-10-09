@@ -45,7 +45,7 @@ module.exports = {
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: 'HyperDeFi 协议 在线文档',
+            title: 'HyperDeFi 文档',
             description: '持有即挖矿！开源的 HyperDeFi 协议由社区驱动，公平启动。'
         }
     },
