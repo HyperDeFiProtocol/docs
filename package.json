@@ -1,0 +1,16 @@
+{
+  "name": "hyperdefi-docs",
+  "version": "1.0.0",
+  "description": "Documentations for HyperDeFi",
+  "main": "index.js",
+  "repository": "git@hyper:HyperDeFiProtocol/docs.git",
+  "author": "HyperDeFi Labs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
