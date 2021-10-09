@@ -28,9 +28,9 @@ module.exports = [
                 ariaLabel: '全开源'
             },
             {
-                text: '预售（启动交易）',
+                text: '预售（初始流动性）',
                 link: '/zh/main/presale/',
-                ariaLabel: '预售（启动交易）'
+                ariaLabel: '预售（初始流动性）'
             },
             {
                 text: '交易费用',

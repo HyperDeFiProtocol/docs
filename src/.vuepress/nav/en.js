@@ -29,9 +29,9 @@ module.exports = [
                 ariaLabel: 'Open-sourced'
             },
             {
-                text: 'Pre-sale (launch)',
+                text: 'Pre-Sale (initial liquidity)',
                 link: '/main/presale/',
-                ariaLabel: 'Pre-sale (launch)'
+                ariaLabel: 'Pre-Sale (initial liquidity)'
             },
             {
                 text: 'Trading Fee',

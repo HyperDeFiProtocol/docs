@@ -1,2 +1,2 @@
-# Pre-sale (launch)
+# Pre-Sale (initial liquidity)
 

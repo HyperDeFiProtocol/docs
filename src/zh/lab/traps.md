@@ -13,7 +13,7 @@
 
 ::: tip HyperDeFi 公开透明预售、无预留、无预挖
 
-- 团队不占有预售资金，预售存入的所有 BUSD 全部用来建立初始流动性。
+- 团队不占有预售资金，预售存入的所有 BNB 全部用来建立初始流动性。
 - 无预留、无预挖，没有团队砸盘风险
 
 :::
@@ -62,21 +62,21 @@ LAUNCH_TIMESTAMP = 1625571600;
 ``` solidity {6,20}
 // ...
 
-IERC20 private constant BUSD = IERC20(...);
-IERC20 private constant HYPER_DEFI = IERC20(...);
-IUniswapV2Router02 private constant PANCAKE = IUniswapV2Router02(...);
-address private constant BLACK_HOLE = address(0xdead);
+IERC20             private constant HYPER_DEFI = IERC20(...);
+IERC20             private constant WBNB       = IERC20(...);
+IUniswapV2Router02 private constant PANCAKE    = IUniswapV2Router02(...);
+address            private constant BLACK_HOLE = address(0xdead);
 
 // ...
 
 // add liquidity
-uint256 busdBalance = BUSD.balanceOf(address(this));
-BUSD.approve(address(PANCAKE), busdBalance);
-(tokenAdded, busdAdded,) = PANCAKE.addLiquidity(
+uint256 wbnbBalance = WBNB.balanceOf(address(this));
+WBNB.approve(address(PANCAKE), wbnbBalance);
+(tokenAdded, wbnbAdded,) = PANCAKE.addLiquidity(
     address(HYPER_DEFI),
-    address(BUSD),
+    address(WBNB),
     HYPER_DEFI.balanceOf(address(this)),
-    busdBalance,
+    wbnbBalance,
     0,
     0,
     BLACK_HOLE,
