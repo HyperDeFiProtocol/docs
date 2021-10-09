@@ -73,7 +73,7 @@ module.exports = {
                         buttonText: "Refresh"
                     }
                 },
-                // nav: require('./nav/en'),
+                nav: require('./nav/en'),
                 sidebar: {
                     '/main/': sidebarMain,
                     '/lab/': sidebarLab,
@@ -90,7 +90,7 @@ module.exports = {
                         buttonText: "刷新"
                     }
                 },
-                // nav: require('./nav/zh'),
+                nav: require('./nav/zh'),
                 sidebar: {
                     '/zh/main/': sidebarMain,
                     '/zh/lab/': sidebarLab,
