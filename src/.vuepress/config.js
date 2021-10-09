@@ -2,7 +2,7 @@ const sidebarMain = require('./sidebars/main')
 const sidebarLab = require('./sidebars/lab')
 
 module.exports = {
-    dest: 'docs',
+    dest: 'dist',
 
     /**
      * head
