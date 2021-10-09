@@ -176,7 +176,7 @@ module.exports = [
             },
             {
                 text: 'Documentation Repo',
-                link: 'https://github.com/HyperDeFiProtocol/documentations',
+                link: 'https://github.com/HyperDeFiProtocol/docs',
                 ariaLabel: 'Documentations Repo'
             },
             {

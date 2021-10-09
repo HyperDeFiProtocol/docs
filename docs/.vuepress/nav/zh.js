@@ -174,7 +174,7 @@ module.exports = [
             },
             {
                 text: '文档代码仓库',
-                link: 'https://github.com/HyperDeFiProtocol/documentations',
+                link: 'https://github.com/HyperDeFiProtocol/docs',
                 ariaLabel: '文档仓库'
             },
             {
