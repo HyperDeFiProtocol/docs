@@ -1,7 +1,6 @@
 module.exports = [
     'origin',
     '',
-    'open-sourced',
     'genesis',
     'fee',
     'auto-farming',

@@ -146,6 +146,17 @@ module.exports = [
                 ariaLabel: '开发'
             },
             {
+                text: '全开源说明',
+                link: '/zh/dev/open-sourced/',
+                ariaLabel: '全开源说明'
+            },
+
+            {
+                text: '占位',
+                link: '/zh/dev/placeholder/',
+                ariaLabel: '占位'
+            },
+            {
                 text: 'GitHub',
                 link: 'https://github.com/HyperDeFiProtocol',
                 ariaLabel: 'GitHub'

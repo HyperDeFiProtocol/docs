@@ -1,4 +1,4 @@
-# 全开源
+# 全开源说明
 
 GitHub 项目地址 https://github.com/HyperDeFiProtocol
 
