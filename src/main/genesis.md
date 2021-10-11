@@ -1,2 +1,4 @@
-# Genesis (initial liquidity)
+# Genesis
+
+initial liquidity
 

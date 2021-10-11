@@ -17,9 +17,9 @@ module.exports = [
                 ariaLabel: 'Introduction'
             },
             {
-                text: 'Genesis (initial liquidity)',
+                text: 'Genesis',
                 link: '/main/genesis/',
-                ariaLabel: 'Genesis (initial liquidity)'
+                ariaLabel: 'Genesis'
             },
             {
                 text: 'Rules',

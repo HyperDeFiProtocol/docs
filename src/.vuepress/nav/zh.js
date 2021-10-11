@@ -22,9 +22,9 @@ module.exports = [
             //     ariaLabel: '全开源'
             // },
             {
-                text: '创世（初始流动性）',
+                text: '联合创世',
                 link: '/zh/main/genesis/',
-                ariaLabel: '创世（初始流动性）'
+                ariaLabel: '联合创世'
             },
             {
                 text: '全民分红（交易规则）',
