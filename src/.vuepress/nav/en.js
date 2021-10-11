@@ -7,6 +7,11 @@ module.exports = [
         ariaLabel: 'Introduction',
         items: [
             {
+                text: 'Origin',
+                link: '/main/origin/',
+                ariaLabel: 'Origin'
+            },
+            {
                 text: 'Introduction',
                 link: '/main/index/',
                 ariaLabel: 'Introduction'

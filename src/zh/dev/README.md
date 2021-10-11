@@ -16,6 +16,9 @@ https://github.com/orgs/HyperDeFiProtocol/projects/1
 ## 构建
 
 ```bash
+# git clone
+$ git clone git@github.com:HyperDeFiProtocol/home.git
+
 # install dependencies
 $ yarn
 

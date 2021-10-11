@@ -1,5 +1,6 @@
 const sidebarMain = require('./sidebars/main')
 const sidebarLab = require('./sidebars/lab')
+const sidebarDev = require('./sidebars/dev')
 
 module.exports = {
     dest: 'dist',
@@ -73,6 +74,7 @@ module.exports = {
                 sidebar: {
                     '/main/': sidebarMain,
                     '/lab/': sidebarLab,
+                    '/dev/': sidebarDev,
                 },
             },
             '/zh/': {
@@ -90,6 +92,7 @@ module.exports = {
                 sidebar: {
                     '/zh/main/': sidebarMain,
                     '/zh/lab/': sidebarLab,
+                    '/zh/dev/': sidebarDev,
                 },
             }
         },

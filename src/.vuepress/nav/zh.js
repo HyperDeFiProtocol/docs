@@ -7,6 +7,11 @@ module.exports = [
         ariaLabel: '项目说明',
         items: [
             {
+                text: '起源',
+                link: '/zh/main/origin/',
+                ariaLabel: '起源'
+            },
+            {
                 text: '项目简介',
                 link: '/zh/main/index/',
                 ariaLabel: '项目简介'
