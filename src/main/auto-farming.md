@@ -1,1 +1,1 @@
-# Auto-Farming Tax
+# Auto-Farming (Farming Tax)

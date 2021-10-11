@@ -1,8 +1,6 @@
 module.exports = [
-
-
     /**
-     * Introduction
+     * Main
      */
     {
         text: 'Introduction',
@@ -12,16 +10,6 @@ module.exports = [
                 text: 'Introduction',
                 link: '/main/index/',
                 ariaLabel: 'Introduction'
-            },
-            {
-                text: 'Fair, fair, and FAIR',
-                link: '/main/fair/',
-                ariaLabel: 'Fair, fair, and FAIR'
-            },
-            {
-                text: 'Community Driven',
-                link: '/main/community-driven/',
-                ariaLabel: 'Community Driven'
             },
             {
                 text: 'Open-sourced',
@@ -71,8 +59,6 @@ module.exports = [
         ]
     },
 
-
-
     /**
      * Lab
      */
@@ -91,6 +77,15 @@ module.exports = [
                 ariaLabel: 'Traps'
             },
         ]
+    },
+
+    /**
+     * Official Home
+     */
+    {
+        text: 'Official Home',
+        link: 'https://hyperdefi.org/',
+        ariaLabel: 'Official Home'
     },
 
     /**
@@ -131,15 +126,6 @@ module.exports = [
                 ariaLabel: 'GitHub Forum'
             },
         ]
-    },
-
-    /**
-     * Official Home
-     */
-    {
-        text: 'Official Home',
-        link: 'https://hyperdefi.org/',
-        ariaLabel: 'Official Home'
     },
 
     /**

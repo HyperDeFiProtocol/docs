@@ -1,2 +1,0 @@
-# Fair, fair, and FAIR
-

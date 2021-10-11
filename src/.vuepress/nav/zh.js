@@ -1,7 +1,6 @@
 module.exports = [
-
     /**
-     * 项目说明
+     * Main
      */
     {
         text: '项目说明',
@@ -11,16 +10,6 @@ module.exports = [
                 text: '项目简介',
                 link: '/zh/main/index/',
                 ariaLabel: '项目简介'
-            },
-            {
-                text: '公平、公平、还是公平',
-                link: '/zh/main/fair/',
-                ariaLabel: '公平、公平、还是公平'
-            },
-            {
-                text: '社区驱动',
-                link: '/zh/main/community-driven/',
-                ariaLabel: '社区驱动'
             },
             {
                 text: '全开源',
@@ -70,7 +59,6 @@ module.exports = [
         ]
     },
 
-
     /**
      * 研究院/实验室
      */
@@ -89,6 +77,15 @@ module.exports = [
                 ariaLabel: '常见的陷阱'
             },
         ]
+    },
+
+    /**
+     * Official Home
+     */
+    {
+        text: '官网',
+        link: 'https://hyperdefi.org/zh',
+        ariaLabel: '官网'
     },
 
     /**
@@ -129,15 +126,6 @@ module.exports = [
                 ariaLabel: 'GitHub 论坛'
             },
         ]
-    },
-
-    /**
-     * Official Home
-     */
-    {
-        text: '官网',
-        link: 'https://hyperdefi.org/zh',
-        ariaLabel: '官网'
     },
 
     /**
