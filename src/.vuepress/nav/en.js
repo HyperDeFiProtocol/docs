@@ -6,60 +6,35 @@ module.exports = [
         text: 'Introduction',
         ariaLabel: 'Introduction',
         items: [
-            {
-                text: 'Origin',
-                link: '/main/origin/',
-                ariaLabel: 'Origin'
-            },
+            // {
+            //     text: 'Origin',
+            //     link: '/main/origin/',
+            //     ariaLabel: 'Origin'
+            // },
             {
                 text: 'Introduction',
                 link: '/main/index/',
                 ariaLabel: 'Introduction'
             },
             {
-                text: 'Open-sourced',
-                link: '/main/open-sourced/',
-                ariaLabel: 'Open-sourced'
+                text: 'Genesis (initial liquidity)',
+                link: '/main/genesis/',
+                ariaLabel: 'Genesis (initial liquidity)'
             },
             {
-                text: 'Pre-Sale (initial liquidity)',
-                link: '/main/presale/',
-                ariaLabel: 'Pre-Sale (initial liquidity)'
+                text: 'Rules',
+                link: '/main/rules/',
+                ariaLabel: 'Rules'
             },
             {
-                text: 'Trading Fee',
-                link: '/main/fee/',
-                ariaLabel: 'Trading Fee'
+                text: 'DApp Supported',
+                link: '/main/dapp/',
+                ariaLabel: 'DApp Supported'
             },
             {
-                text: 'Auto-farming',
-                link: '/main/auto-farming/',
-                ariaLabel: 'Auto-farming'
-            },
-            {
-                text: 'Lotto',
-                link: '/main/lotto/',
-                ariaLabel: 'Lotto'
-            },
-            {
-                text: 'FOMO Prize',
-                link: '/main/fomo/',
-                ariaLabel: 'FOMO Prize'
-            },
-            {
-                text: 'LP Acquisition',
-                link: '/main/lp/',
-                ariaLabel: 'LP Acquisition'
-            },
-            {
-                text: 'Fund',
-                link: '/main/fund/',
-                ariaLabel: 'Fund'
-            },
-            {
-                text: 'Burn',
-                link: '/main/burn/',
-                ariaLabel: 'Burn'
+                text: 'FAQ',
+                link: '/main/faq/',
+                ariaLabel: 'FAQ'
             },
         ]
     },

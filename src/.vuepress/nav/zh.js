@@ -6,60 +6,40 @@ module.exports = [
         text: '项目说明',
         ariaLabel: '项目说明',
         items: [
-            {
-                text: '起源',
-                link: '/zh/main/origin/',
-                ariaLabel: '起源'
-            },
+            // {
+            //     text: '起源',
+            //     link: '/zh/main/origin/',
+            //     ariaLabel: '起源'
+            // },
             {
                 text: '项目简介',
                 link: '/zh/main/index/',
                 ariaLabel: '项目简介'
             },
+            // {
+            //     text: '全开源',
+            //     link: '/zh/main/open-sourced/',
+            //     ariaLabel: '全开源'
+            // },
             {
-                text: '全开源',
-                link: '/zh/main/open-sourced/',
-                ariaLabel: '全开源'
+                text: '创世（初始流动性）',
+                link: '/zh/main/genesis/',
+                ariaLabel: '创世（初始流动性）'
             },
             {
-                text: '预售（初始流动性）',
-                link: '/zh/main/presale/',
-                ariaLabel: '预售（初始流动性）'
+                text: '全民分红（交易规则）',
+                link: '/zh/main/rules/',
+                ariaLabel: '全民分红（交易规则）'
             },
             {
-                text: '交易费用',
-                link: '/zh/main/fee/',
-                ariaLabel: '交易费用'
+                text: 'DApp 支持',
+                link: '/zh/main/dapp/',
+                ariaLabel: 'DApp 支持'
             },
             {
-                text: '自动挖矿（税收矿池）',
-                link: '/zh/main/auto-farming/',
-                ariaLabel: '自动挖矿（税收矿池）'
-            },
-            {
-                text: 'Lotto 乐透',
-                link: '/zh/main/lotto/',
-                ariaLabel: 'Lotto 乐透'
-            },
-            {
-                text: 'FOMO 奖金',
-                link: '/zh/main/fomo/',
-                ariaLabel: 'FOMO 奖金'
-            },
-            {
-                text: 'LP 流动池回收',
-                link: '/zh/main/lp/',
-                ariaLabel: 'LP 流动池回收'
-            },
-            {
-                text: '基金',
-                link: '/zh/main/fund/',
-                ariaLabel: '基金'
-            },
-            {
-                text: '销毁',
-                link: '/zh/main/burn/',
-                ariaLabel: '销毁'
+                text: '常见问题与解答',
+                link: '/main/faq/',
+                ariaLabel: '常见问题与解答'
             },
         ]
     },
