@@ -27,6 +27,11 @@ module.exports = [
                 ariaLabel: 'Rules'
             },
             {
+                text: 'No reservation',
+                link: '/main/no-reservation/',
+                ariaLabel: 'No reservation'
+            },
+            {
                 text: 'DApp Supported',
                 link: '/main/dapp/',
                 ariaLabel: 'DApp Supported'

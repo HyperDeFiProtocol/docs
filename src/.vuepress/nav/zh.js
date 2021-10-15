@@ -32,6 +32,11 @@ module.exports = [
                 ariaLabel: '全民分红（交易规则）'
             },
             {
+                text: '无预留',
+                link: '/zh/main/no-reservation/',
+                ariaLabel: '无预留'
+            },
+            {
                 text: 'DApp 支持',
                 link: '/zh/main/dapp/',
                 ariaLabel: 'DApp 支持'
