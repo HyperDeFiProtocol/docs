@@ -16,20 +16,20 @@ module.exports = [
                 link: '/zh/main/index/',
                 ariaLabel: '项目简介'
             },
-            // {
-            //     text: '全开源',
-            //     link: '/zh/main/open-sourced/',
-            //     ariaLabel: '全开源'
-            // },
             {
                 text: '联合创世',
                 link: '/zh/main/genesis/',
                 ariaLabel: '联合创世'
             },
             {
-                text: '全民分红（交易规则）',
+                text: '交易税全民分红',
                 link: '/zh/main/rules/',
-                ariaLabel: '全民分红（交易规则）'
+                ariaLabel: '交易税全民分红'
+            },
+            {
+                text: '税率折扣码',
+                link: '/main/coupon/',
+                ariaLabel: '税率折扣码'
             },
             {
                 text: '无预留',

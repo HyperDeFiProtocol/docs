@@ -27,6 +27,11 @@ module.exports = [
                 ariaLabel: 'Rules'
             },
             {
+                text: 'Coupon',
+                link: '/main/coupon/',
+                ariaLabel: 'Coupon'
+            },
+            {
                 text: 'No reservation',
                 link: '/main/no-reservation/',
                 ariaLabel: 'No reservation'

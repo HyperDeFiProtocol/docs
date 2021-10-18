@@ -3,6 +3,7 @@ module.exports = [
     '',
     'genesis',
     'rules',
+    'coupon',
     'no-reservation',
     'dapp',
     'faq',

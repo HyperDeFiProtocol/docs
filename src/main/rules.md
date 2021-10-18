@@ -1,8 +1,8 @@
-# Rules
+# Tax
 
-## Trading Fee
+## Trading Tax
 
-## Auto-Farming (Farming Tax)
+## Farm
 
 ## Randomly Airdrop
 
