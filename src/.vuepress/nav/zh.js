@@ -28,7 +28,7 @@ module.exports = [
             },
             {
                 text: '税率折扣码',
-                link: '/main/coupon/',
+                link: '/zh/main/coupon/',
                 ariaLabel: '税率折扣码'
             },
             {

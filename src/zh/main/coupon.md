@@ -2,7 +2,7 @@
 
 ## 折扣码 Coupon Code
 
-**折扣码 Coupon Code** 为 8 位十六进制字符串，形如 `0123ABCD`
+**折扣码 Coupon Code** 为 8 位十六进制字符串，形如 `149-3E9DB`
 
 ## Inviter 与 Visitor
 

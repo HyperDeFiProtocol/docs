@@ -1,6 +1,6 @@
 # 项目说明
 
-**HPDF** 是 **HyperDeFi Protocol** 项目的全民分红型代币， 长期通缩，具有持有即挖矿、持有即享随机空投、流动性自动增强、FOMO 奖池持续激励等特性，基于币安智能链（BSC Chain）开发并永久运行。并已为
+**HPDF** 是 **HyperDeFi Protocol** 开源项目的全民分红型代币， 长期通缩，具有持有即挖矿、持有即享随机空投、流动性自动增强、FOMO 奖池持续激励等特性，基于币安智能链（BSC Chain）开发并永久运行。并已为
 DApp 做好准备……
 
 **HPDF** 在 **PancakeSwap** 交易，交易对为 **HyperDeFi/BNB** 用户可以自由买卖，没有锁仓限制。
