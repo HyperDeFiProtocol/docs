@@ -22,9 +22,9 @@ module.exports = [
                 ariaLabel: '联合创世'
             },
             {
-                text: '交易税全民分红',
+                text: '生态税全民分红',
                 link: '/zh/main/rules/',
-                ariaLabel: '交易税全民分红'
+                ariaLabel: '生态税全民分红'
             },
             {
                 text: '税率折扣码',
