@@ -90,7 +90,22 @@
 
 :::
 
-...
+当流动性缓冲池持有的 HyperDeFi 大于 Pancake 流动性的 1/1,000 时执行，将其中一半 HyperDeFi 换为 BNB，加上另一半 HyperDeFi 共同添加到流动性，同时将 LP Token 打入黑洞地址，合约自动执行，人工无权介入。
+
+缓冲池就续时，以下动作将触发流动性自动添加：
+
+- 设置用户名
+- 绑定税率折扣码 Coupon Code
+- 生成税率折扣码 Coupon Code
+- DApp 调用生态税相关功能
+- 一键收矿
+- 用户手工执行主动销毁
+- 用户执行代付授权（比如首次在 PancakeSwap 卖出前，对 PancakeSwap 授权允许交易 HyperDeFi，或向生态 DApp 合约授权使用 HyperDeFi）
+- 用户修改代付授权
+- 用户取消代付授权
+- 创世用户认领创世份额
+
+用户通过 PancakeSwap 换入或换出 HyperDeFi 时，不会触发从缓冲池向流性性的自动添加（由 PancakeSwap 合约规则决定）
 
 ## 基金
 
