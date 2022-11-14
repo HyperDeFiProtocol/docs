@@ -43,7 +43,7 @@ jobs:
       - name: Remove dist
         run: rm ./dist -rf
 
-      - uses: szenius/set-timezone@v1.0
+      - uses: szenius/set-timezone@v1.1
         with:
           timezoneLinux: "Asia/Singapore"
           timezoneMacos: "Asia/Singapore"
